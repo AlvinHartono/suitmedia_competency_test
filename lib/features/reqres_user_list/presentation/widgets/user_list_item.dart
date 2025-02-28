@@ -46,9 +46,7 @@ class UserListItem extends StatelessWidget {
           ),
         ),
         Padding(
-          padding: const EdgeInsets.symmetric(
-            horizontal: 16,
-          ), // Add horizontal padding
+          padding: const EdgeInsets.symmetric(horizontal: 16),
           child: const Divider(thickness: 0.5, height: 1, color: Colors.grey),
         ),
       ],

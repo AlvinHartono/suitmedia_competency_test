@@ -100,7 +100,6 @@ class _ThirdScreenPageState extends State<ThirdScreenPage> {
           return const EmptyStateWidget();
         }
 
-        // Default empty view
         return const EmptyStateWidget();
       },
     );

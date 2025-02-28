@@ -28,7 +28,6 @@ class ReqresUserBloc extends Bloc<ReqresUserListEvent, ReqresUserListState> {
     _currentPage = event.page;
 
     final result = await _getUsers(_currentPage, event.perPage);
-    print(result.props);
     emit(result);
   }
 
